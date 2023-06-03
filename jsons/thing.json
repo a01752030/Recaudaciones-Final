@@ -1,0 +1,46 @@
+POST http://127.0.0.1:8080/fun/create
+{
+  "_id": "617c2e4c94dbae13849b801f",
+  "fundacion": "",
+  "proposito": "",
+  "meta": 10000,
+  "saldo": 5000
+}
+GET http://127.0.0.1:8080/fun/todo
+
+POST http://127.0.0.1:8080/fun/donacion
+{
+    "fundacion": "Sosa Inc",
+    "donacion": 500
+}
+
+GET http://127.0.0.1:8080/fun/totalDonaciones/:
+
+POST http://127.0.0.1:8080/fun/configuracion
+{
+  "fundacion": "",
+  "proposito": "",
+  "meta": 
+}
+
+GET http://127.0.0.1:8080/fun/todo
+
+POST http://127.0.0.1:8080/user/signup
+{
+"nombre":"", 
+"fundacion":"",
+ "email":"sickpuppyjp500@gmail.com", 
+ "password":"Password01."
+}
+
+POST http://127.0.0.1:8080/user/signin
+{
+  "email": "sickpuppyjp500@gmail.com",
+  "password": "Password01."
+}
+
+POST http://127.0.0.1:8080/user/verify
+{
+  "email": "sickpuppyjp500@gmail.com",
+  "verificationCode": ""
+}
